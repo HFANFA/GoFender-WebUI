@@ -6,7 +6,7 @@
 
 This project is the front-end data visualization page of the [GoFender](https://github.com/iFANGXIE/GoFender) project
 
-Demo View
+## Demo View
 
 ![demo](https://github.com/iFANGXIE/GoFender/blob/master/.github/demo.png)
 
