@@ -206,19 +206,13 @@ require([
         getAttacks: function () {
              var that = this;
             $.get(
-                    url + '/api/atkinfo', function (data) {
+                    '../api/atkinfo', function (data) {
                     that.attacksData = data.data;
                     that._renderAttacks(that.attacksData);
                 }
             );
         }
     };
-     var url;
-     fetch('/config.json')
-         .then(response => response.json())
-         .then(data => {
-             url=data.gofender_api_url;
-         });
     // execution
     View.init();
 
